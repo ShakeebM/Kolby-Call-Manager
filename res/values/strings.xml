@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KolBy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="configure">Configure</string>
+    <string name="string_head">The Recorded Files are.....</string>
+    <color name="hash">#d1bff0</color>
+    <color name="darkblue">#250356</color>
+    <color name="green">#449e6a</color>
+    <color name="white">#fff</color>
+    <string name="inc"></string>
+    <string name="string_play">Play</string>
+    <string name="string_share">Share</string>
+    <string name="string_delete">Deletee</string>
+</resources>

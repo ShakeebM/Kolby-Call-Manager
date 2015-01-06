@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textHead"
+        android:layout_centerHorizontal="true"
+        android:typeface="sans" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/optlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#187ead"
+        android:visibility="invisible"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/playButton"
+            style="@style/buttontheme"
+            android:text="@string/string_play" />
+
+        <Button
+            android:id="@+id/shareButton"
+			style="@style/buttontheme"
+            android:text="@string/string_share" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            style="@style/buttontheme"
+            android:text="@string/string_delete" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
